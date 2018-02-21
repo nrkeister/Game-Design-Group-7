@@ -4,28 +4,48 @@
 Hunt or be Haunted
 
 # Running
-Use cmake and make to compile
+SFML required.
 
-Run using the command `./HH`
+```
+git clone
+cd HouseHaunters
+mkdir Debug
+cd Debug
 
-# Characters
+cmake
+make
+./HH
+```
 
-**The Brother**  
-An athletic young man who can run his mouth almost as fast as he can run with his feet.
+# Screenshots
 
-**The Sister**  
-A shy young girl with a habit of sneaking up on people. Some say when she's completely still, it's hard to notice she's in the room.
+To see a demo with multiplayer, [click here](https://www.youtube.com/watch?time_continue=13&v=iWgVyEbL8hM).
 
-**The Father**  
-A man who clearly prefers matter over mind. Simply put, his muscles matter and his mind does not.
+Start page
+![WOW](resources/screenshots/introScreen.png)
 
-**The Mother**  
-They say mother knows best, and well, this mother does. Now if only the rest of her family could get a clue.
+Choose one of four characters, each with their own unique ability.
+![WOW](resources/screenshots/chooseCharacter.png)
+
+The Brother: speed. extra speed while running
+The Sister: stealth. when character is still, the ghost doesn't detect her
+The Father: strength. one extra life to fight the ghost
+The Mother: smarts. sees more specific clues than the others
+
+Explore the 23 different room designs
+![WOW](resources/screenshots/exploreRooms.png)
+
+Find clues to defeat the ghost
+![WOW](resources/screenshots/seeClue.png)
+
+Fight (or flee) the ghost
+![WOW](resources/screenshots/fleeGhost.png)
+![WOW](resources/screenshots/fightGhost.png)
 
 # Controls
-```
-Up to 4 controllers supported (including keyboard)
-```
+
+Up to 4 controllers supported (including keyboard).
+
 The controls below refer to a PS4 controller setup (not tested with any other controller type) and a standard keyboard setup.
 
 Move - Arrow Keys / D-pad  
